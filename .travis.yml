@@ -6,8 +6,11 @@ before_cache: echo 'Before cache'
 after_success: echo 'After success'
 after_failure: echo 'After failure'
 before_deploy: echo 'Before deploy'
-deploy: 
-- echo 'Deploy'
+
+deploy:
+    provider: script
+    script: echo 'Deploy'
+
 after_deploy: echo 'After deploy'
 after_script: echo 'After script'
 
