@@ -1,0 +1,14 @@
+nstall: foo
+install: foo
+before_script: foo
+script: foo
+before_cache: foo
+after_success: foo
+after_failure: foo
+before_deploy: foo
+deploy: foo
+after_deploy: foo
+after_script: foo
+
+language: groovy
+
